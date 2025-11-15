@@ -1,0 +1,12 @@
+# Archivos y carpetas que no se deben subir a Vercel
+node_modules
+.git
+.vscode
+.idea
+*.log
+.DS_Store
+README.md
+PERSONALIZAR.md
+DESPLIEGUE.md
+.eslintrc.js
+eslint.config.js
