@@ -91,7 +91,7 @@ const Hero = () => {
           <p className="hero-greeting">Hola, soy</p>
           <h1 className="hero-name">Néstor Ramírez Castro</h1>
           <h2 className="hero-title">
-            <span className="typing-text">Estudiante de Ingeniería Civil en Computación</span>
+            <span className="typing-text">Egresado de Ingeniería Civil en Computación</span>
           </h2>
           <div className="hero-buttons">
             <button 

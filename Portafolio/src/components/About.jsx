@@ -15,7 +15,7 @@ const About = () => {
           </div>
           <div className="about-text">
             <p className="about-intro">
-              Soy estudiante de <strong>Ingeniería Civil en Computación</strong> de la Universidad de Talca, 
+              Soy egresado de <strong>Ingeniería Civil en Computación</strong> de la Universidad de Talca, 
               con experiencia en desarrollo de software y pasión por crear soluciones tecnológicas innovadoras.
             </p>
             <p>
