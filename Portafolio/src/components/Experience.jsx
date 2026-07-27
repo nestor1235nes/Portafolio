@@ -3,39 +3,40 @@ import './Experience.css';
 const Experience = () => {
   const timeline = [
     {
-      type: 'education',
-      title: 'Ingeniería Civil en Computación',
-      organization: 'Universidad de Tarapacá',
-      period: '2018 - 2024',
-      description: 'Formación integral en desarrollo de software, estructuras de datos, algoritmos, bases de datos, ingeniería de software y arquitectura de sistemas.',
+      type: 'work',
+      title: 'Full Stack Developer',
+      organization: 'Asesora SpA / Gestión Electrónica Limitada, Curicó',
+      period: '2025 - Presente',
+      description: 'Pasé de practicante a contratado. Desarrollo y mantención de sistemas ERP con integración al SII, dentro de un stack PHP 8.2 + Laravel, Vue 3 + PrimeVue, microservicios en Python y MySQL.',
       achievements: [
-        'Especialización en desarrollo web full-stack',
-        'Proyecto de título enfocado en soluciones de salud digital',
-        'Participación en proyectos de investigación y desarrollo'
+        'Módulos de facturación electrónica (DTE) integrados con el SII: folios CAF y gestores Acepta/Tecnoback',
+        'Integración de pasarela de pagos con Webpay Plus y Fintoc',
+        'Gestión de Fondos Fijos y Fondos por Rendir dentro del ERP',
+        'Software de gestión para servicios sanitarios rurales (APR/SSR)'
       ]
     },
     {
       type: 'work',
       title: 'Desarrollador Full-Stack',
-      organization: 'Proyectos Freelance',
-      period: '2023 - Presente',
-      description: 'Desarrollo de aplicaciones web personalizadas para diversos clientes, enfocado en soluciones escalables y eficientes.',
+      organization: 'Proyectos Personales',
+      period: '2024 - Presente',
+      description: 'Desarrollo de proyectos propios con stack MERN, en paralelo al trabajo profesional.',
       achievements: [
-        'Desarrollo de VitaLink - Sistema de gestión de salud',
-        'Implementación de arquitecturas modernas con React y Node.js',
-        'Integración de APIs y servicios en la nube'
+        'Agenda VITALINK: plataforma de gestión médica, con funcionalidades como telemedicina con inbox centralizado de WhatsApp y pagos vía Webpay',
+        'Desarrolo de la arquitectura completa, tanto del modelamiento como de las integraciones API REST externas.',
+        'Plataforma multi-rol, con JWT para autenticación y seguridad en esta.',
+        'Desplegada en Google Cloud Run.'
       ]
     },
     {
-      type: 'work',
-      title: 'Desarrollador de Software',
-      organization: 'Proyectos Académicos',
-      period: '2021 - 2023',
-      description: 'Participación en múltiples proyectos académicos desarrollando habilidades en trabajo en equipo y metodologías ágiles.',
+      type: 'education',
+      title: 'Ingeniería Civil en Computación',
+      organization: 'Universidad de Talca',
+      period: 'Titulado 2025',
+      description: 'Formación integral en desarrollo de software, estructuras de datos, algoritmos, bases de datos, ingeniería de software y arquitectura de sistemas.',
       achievements: [
-        'Desarrollo de sistemas de gestión empresarial',
-        'Implementación de soluciones con metodologías ágiles',
-        'Colaboración en equipos multidisciplinarios'
+        'Especialización en desarrollo web full-stack',
+        'Participación en proyectos de investigación y desarrollo'
       ]
     }
   ];

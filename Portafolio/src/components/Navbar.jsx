@@ -44,6 +44,7 @@ const Navbar = () => {
           <li onClick={() => scrollToSection('about')}>Sobre Mí</li>
           <li onClick={() => scrollToSection('skills')}>Habilidades</li>
           <li onClick={() => scrollToSection('projects')}>Proyectos</li>
+          <li onClick={() => scrollToSection('professional-projects')}>Proy. Profesionales</li>
           <li onClick={() => scrollToSection('experience')}>Experiencia</li>
           <li onClick={() => scrollToSection('contact')}>Contacto</li>
         </ul>

@@ -15,7 +15,7 @@ const Projects = () => {
   const projects = [
     {
       title: 'VITALINK - Sistema de Gestión de Salud',
-      description: 'Plataforma integral para la gestión de agendas médicas con sistema de reservas en línea, historial clínico electrónico y gestión de pacientes. Desarrollado con React, Node.js y MongoDB.',
+      description: 'Plataforma integral para la gestión de agendas médicas con sistema de reservas en línea, historial clínico electrónico y gestión de pacientes. Para ingresar, utilizar las siguientes credenciales: correo: agendavitalink@gmail.com, contraseña: AgendaVitalink123.',
       demoLink: 'https://agendavitalink.vercel.app/front-users',
       technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT'],
       image: vitalink,
@@ -52,7 +52,7 @@ const Projects = () => {
   return (
     <section id="projects" className="projects">
       <div className="container">
-        <h2 className="section-title">Proyectos Destacados</h2>
+        <h2 className="section-title">Proyectos Personales</h2>
         <p className="projects-subtitle">
           Algunos de los proyectos en los que he trabajado
         </p>

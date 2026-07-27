@@ -15,18 +15,15 @@ const About = () => {
           </div>
           <div className="about-text">
             <p className="about-intro">
-              Soy egresado de <strong>Ingeniería Civil en Computación</strong> de la Universidad de Talca, 
-              con experiencia en desarrollo de software y pasión por crear soluciones tecnológicas innovadoras.
+              Soy <strong>Full Stack Developer</strong>, titulado de <strong>Ingeniería Civil en Computación</strong> en la 
+              Universidad de Talca.
             </p>
             <p>
-              Mi experiencia abarca desde el desarrollo de aplicaciones web full-stack hasta la integración 
-              de sistemas y automatización de procesos. He trabajado con tecnologías modernas como React, Node.js, 
-              Python y bases de datos SQL/NoSQL, creando soluciones escalables y eficientes.
-            </p>
-            <p>
-              Me destaco por mi capacidad de aprendizaje autodidacta, trabajo en equipo y comunicación. 
-              Busco constantemente nuevos desafíos que me permitan aplicar mis conocimientos técnicos y contribuir 
-              al desarrollo de productos que generen un impacto positivo en la sociedad.
+              Actualmente trabajo en sistemas ERP con integración al SII: módulos de facturación
+              electrónica (DTE) con gestores como Acepta y Tecnoback, manejo de folios CAF, pasarela de
+              pagos (Webpay Plus y Fintoc) y software de gestión para servicios sanitarios rurales (APR/SSR).
+              Mi stack de trabajo diario es PHP 8.2 con Laravel, Vue 3 con PrimeVue, microservicios en
+              Python y MySQL.
             </p>
             <div className="about-highlights">
               <div className="highlight-item">
@@ -36,8 +33,8 @@ const About = () => {
               </div>
               <div className="highlight-item">
                 <div className="highlight-icon">💼</div>
-                <h3>Especialidad</h3>
-                <p>Desarrollo web Full-Stack</p>
+                <h3>Rol Actual</h3>
+                <p>Full Stack Developer - Sistemas ERP / DTE</p>
               </div>
             </div>
           </div>

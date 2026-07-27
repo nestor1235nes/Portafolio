@@ -1,7 +1,32 @@
 ﻿import './Skills.css';
 
 const Skills = () => {
+  // Stack profesional: el que uso día a día en Asesora SpA
   const mainStack = [
+    {
+      name: 'PHP',
+      iconUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg'
+    },
+    {
+      name: 'Laravel',
+      iconUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg'
+    },
+    {
+      name: 'Vue 3',
+      iconUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg'
+    },
+    {
+      name: 'MySQL',
+      iconUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg'
+    },
+    {
+      name: 'Python',
+      iconUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg'
+    }
+  ];
+
+  // Stack usado en proyectos personales (ej. Vitalink), no en el trabajo actual
+  const personalStack = [
     {
       name: 'MongoDB',
       iconUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg'
@@ -29,14 +54,6 @@ const Skills = () => {
     {
       name: 'Java',
       iconUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg'
-    },
-    {
-      name: 'Python',
-      iconUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg'
-    },
-    {
-      name: 'MySQL',
-      iconUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg'
     },
     {
       name: 'React Native',
@@ -77,12 +94,28 @@ const Skills = () => {
         </p>
         
         <div className="main-stack-section">
-          <h3 className="stack-title">Stack Principal - MERN</h3>
+          <h3 className="stack-title">Stack Profesional</h3>
           <div className="main-stack-grid">
             {mainStack.map((skill, index) => (
               <div key={index} className="skill-card main-skill">
-                <img 
-                  src={skill.iconUrl} 
+                <img
+                  src={skill.iconUrl}
+                  alt={skill.name}
+                  className={`skill-icon ${skill.darkIcon ? 'icon-invert' : ''}`}
+                />
+                <span className="skill-name">{skill.name}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="main-stack-section">
+          <h3 className="stack-title">Proyectos Personales - MERN</h3>
+          <div className="main-stack-grid">
+            {personalStack.map((skill, index) => (
+              <div key={index} className="skill-card main-skill">
+                <img
+                  src={skill.iconUrl}
                   alt={skill.name}
                   className={`skill-icon ${skill.darkIcon ? 'icon-invert' : ''}`}
                 />
